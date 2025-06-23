@@ -5,11 +5,14 @@ public class GameFrame extends MyFrame{
 		GameWorld.player=new Player(100,300,0,0);
 		addKeyListener(GameWorld.player);
 		GameWorld.playerBullets=new Vector<PlayerBullet>();
+		GameWorld.enemies=new Vector<Enemy>();
+		GameWorld.enemies.add(new EnemyBace(100,50,1,0));
 		while (true){
 			clear();
 			GameWorld.player.draw(this);
 			GameWorld.player.move();
 			movePlayerBullets();
+			for ()
 			sleep(0.03);
 		}
 	}
