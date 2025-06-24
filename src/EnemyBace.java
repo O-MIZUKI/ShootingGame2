@@ -7,7 +7,7 @@ public class EnemyBace extends Enemy{
 		super.move();
 		if (x>300)vx=-1;
 		if(x<100)vx=1;
-		if(Math.random()<0.05) {
+		if(Math.random()<0.01) {
 			GameWorld.enemies.add(new StraightEnemy(x, y, 0, 2));
 		}
 		if (Math.random()<0.05) {
