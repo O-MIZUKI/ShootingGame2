@@ -19,6 +19,7 @@ public class EnemyBace extends Enemy{
 		if (Math.random()<0.05) {
 			GameWorld.enemies.add(new CurveEnemy(x, y, 0, 3));
 		}
+
 	}
 	public void draw (MyFrame f) {
 		f.setColor(0, 128, 0);
