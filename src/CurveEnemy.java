@@ -2,6 +2,7 @@
 public class CurveEnemy extends Enemy{
 	public CurveEnemy(double x, double y, double vx, double vy) {
 		super(x, y, vx, vy);
+		life=3;
 	}
 	public void draw(MyFrame f) {
 		f.setColor(0, 0, 0);
