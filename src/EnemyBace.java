@@ -21,6 +21,9 @@ public class EnemyBace extends Enemy{
 		if (Math.random()<0.05) {
 			GameWorld.enemies.add(new CurveEnemy(x, y, 0, +GameWorld.stage));
 		}
+		if (Math.random()<0.05) {
+			GameWorld.enemies.add(new DashEnemy(x, y, 0, +GameWorld.stage));
+		}
 
 	}
 	public void draw (MyFrame f) {
