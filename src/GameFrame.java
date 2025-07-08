@@ -40,7 +40,8 @@ public class GameFrame extends MyFrame{
 					GameWorld.stage=1;
 					GameWorld.score=0;
 					break;
-				}
+					}
+			
 				}
 				sleep(0.03);
 			}

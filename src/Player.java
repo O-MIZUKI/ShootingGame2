@@ -44,6 +44,10 @@ public class Player extends Character implements KeyListener,MouseListener {
 		if (e.getKeyCode()==KeyEvent.VK_D) {
 			vx=0;
 		}
+		if(e.getKeyCode()==KeyEvent.VK_ENTER) {
+			System.out.println("Enterキーが押されました");
+			GameWorld.enterPressed=true;
+		}
 	}
 	@Override
 	public void mouseClicked(MouseEvent e) {
